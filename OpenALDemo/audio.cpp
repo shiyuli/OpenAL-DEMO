@@ -2,12 +2,12 @@
 #include <time.h>
 #include <stdio.h>
 
-#include <alc.h>
-#include <al.h>
+#include "./include/alc.h"
+#include "./include/al.h"
 
 #include "audio.h"
 
-#pragma comment(lib, "OpenAL32.lib")
+#pragma comment(lib, "./libs/Win64/OpenAL32.lib")
 
 #define DEFAULT_GAIN (.1f)
 #define DEFAULT_FREQ (440)
